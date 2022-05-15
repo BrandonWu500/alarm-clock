@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  margin-top: 25vh;
+}
+
+.display {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+button,
+input {
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+button {
+  text-transform: capitalize;
+}
+
+.btns {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.alarm-msg {
+  font-size: 1.5rem;
+  margin-top: 1em;
+  text-transform: capitalize;
+}
